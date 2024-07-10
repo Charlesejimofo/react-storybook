@@ -1,0 +1,17 @@
+li {
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.open {
+    color: green;
+}
+
+.done {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.icon {
+    margin-left: 10px;
+}

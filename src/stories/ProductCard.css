@@ -1,0 +1,46 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 16px;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    margin: 0 0 8px;
+    font-size: 1.25em;
+}
+
+.card-text {
+    /* margin: 0; */
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.card-price {
+    font-weight: 600;
+}
+
+.card-button {
+    margin-top: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.sale {
+    background-color: red;
+    color: white;
+    padding-inline: 20px;
+    border-radius: 20px;
+}

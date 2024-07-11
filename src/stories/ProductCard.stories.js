@@ -1,6 +1,6 @@
-import { fn } from '@storybook/test';
+import { fn } from '@storybook/test'
 
-import ProductCard from './ProductCard';
+import ProductCard from './ProductCard'
 
 export default {
     title: 'Components/ProductCard',
@@ -10,6 +10,17 @@ export default {
         imageUrl: 'product.jpg',
         price: '100 Euro',
     },
+    parameters: {
+        viewport: {
+            defaultViewport: 'ipad'
+        },
+    },
+    // parameters: {
+    //   viewport: {
+    //     disable: true,
+    //   },
+    // },
+    // },
 }
 
 export const Default = {
